@@ -1,0 +1,51 @@
+body {
+    color: #264653;
+  }
+  
+  .btn-danger {
+    float: right;
+  }
+  
+  li {
+    font-size: 1.3em;
+  }
+  
+  .title {
+    padding-bottom: 0.5em;
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    z-index: -2;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+  }
+  
+  header {
+    color: white;
+    background-color: #2a9d8f;
+  }
+  
+  .btn-dark {
+    background-color: #264653;
+    color: white;
+  }
+  
+  .fa-plus,
+  .fa-trash {
+    pointer-events: none;
+  }
+  
+  .alert-success,
+  .alert-warning {
+    display: none;
+  }
+  
